@@ -10,10 +10,10 @@ body {
     align-content: center;
     border: double; border-width: 10px; color: rebeccapurple;
     & p {
-        padding: 5%;
+        padding: auto;
     }
     & blockquote {
-        padding: 5%;
+        padding: auto;
     }
     & ul {
         padding: auto;
@@ -34,7 +34,7 @@ html{
 }
 
 main{
-    padding: 5%;
+    padding: auto;
 
 }
 
@@ -45,8 +45,8 @@ footer{
         font-size: 90%;
         font-weight: bold;
         text-align: center;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding-top: auto;
+        padding-bottom: auto;
     }
 }
 
