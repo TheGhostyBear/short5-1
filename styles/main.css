@@ -9,6 +9,23 @@ body {
     border-width: 90%;
     align-content: center;
     border: double; border-width: 10px; color: rebeccapurple;
+    & p {
+        padding: 5%;
+    }
+    & blockquote {
+        padding: 5%;
+    }
+    & ul {
+        padding: auto;
+    }
+    & li {
+        padding: auto;
+    }
+    & cite {
+        color: rebeccapurple;
+        font-style: normal;
+        font-weight: bold;
+    }
     
 }
 
@@ -23,12 +40,13 @@ main{
 
 footer{
     border-top: rebeccapurple;
+    border-top: solid;
     & p { 
         font-size: 90%;
         font-weight: bold;
-        align-content: center;
-        padding-top: 10%;
-        padding-bottom: 10%;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
 }
 
@@ -45,14 +63,8 @@ h3{
     font-size: 115%;
 }
 
-cite{
-    color: rebeccapurple;
-    font-style: normal;
-    font-weight: bold;
-}
-
 img{
     float: left;
-    padding-right: 5%;
-    padding-bottom: 5%;
+    padding-right: 1em;
+    padding-bottom: 1em;
 }
