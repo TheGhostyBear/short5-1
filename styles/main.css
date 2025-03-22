@@ -2,13 +2,19 @@
     padding: 0px;
     margin: 0px;
     }
+:root{
+    --custom-color1:#663399 
+    --custom-color2:#000000
+    --custom-color3:#ffffff    
+}
+
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     border-width: 90%;
     align-content: center;
-    border: double; border-width: 10px; border-color: rebeccapurple;
+    border: double; border-width: 10px; border-color: #663399;
     & p {
         padding: 10px;
     }
@@ -39,7 +45,7 @@ main{
 }
 
 footer{
-    border-top: rebeccapurple;
+    border-color: rebeccapurple;
     border-top: solid;
     & p { 
         font-size: 90%;
