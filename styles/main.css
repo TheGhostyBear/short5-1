@@ -3,9 +3,9 @@
     margin: 0px;
     }
 :root{
-    --custom-color1:#663399 
-    --custom-color2:#000000
-    --custom-color3:#ffffff    
+    --custom-color1:#663399; 
+    --custom-color2:#663399;
+    --custom-color3:#663399;    
 }
 
 
@@ -14,7 +14,7 @@ body {
     font-size: 100%;
     border-width: 90%;
     align-content: center;
-    border: double; border-width: 10px; border-color: #663399;
+    border: double; border-width: 10px; border-color: var(--custom-color1);
     & p {
         padding: 10px;
     }
@@ -28,7 +28,7 @@ body {
         padding: 10px;
     }
     & cite {
-        color: rebeccapurple;
+        color: var(--custom-color2);
         font-style: normal;
         font-weight: bold;
     }
@@ -45,8 +45,8 @@ main{
 }
 
 footer{
-    border-color: rebeccapurple;
     border-top: solid;
+    border: solid; border-width: 10px; border-color: var(--custom-color3);
     & p { 
         font-size: 90%;
         font-weight: bold;
@@ -58,7 +58,7 @@ footer{
 
 h1{
     font-size: 150%;
-    color: rebeccapurple;
+    color: var(--custom-color1);
 }
 
 h2{
@@ -73,5 +73,5 @@ h3{
 img{
     float: left;
     padding-right: 5em;
-    padding-bottom: 5em;
+    padding-bottom: 10px;
 }
