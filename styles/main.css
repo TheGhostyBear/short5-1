@@ -45,8 +45,7 @@ main{
 }
 
 footer{
-    border-top: solid;
-    border: solid; border-width: 10px; border-color: var(--custom-color3);
+    border-top: solid; border-color: var(--custom-color1);
     & p { 
         font-size: 90%;
         font-weight: bold;
